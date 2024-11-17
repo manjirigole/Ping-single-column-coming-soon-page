@@ -27,12 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/user-attachments/assets/d95eef66-c706-47d7-91fd-b6554f7e0917)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-Ng_UoS52s0
+- Live Site URL: https://manjirigole.github.io/Ping-single-column-coming-soon-page/
 
 ## My process
 
