@@ -1,0 +1,130 @@
+body{
+    font-family: "Libre Franklin", sans-serif;
+    height: 100vh;
+}
+.logo{
+    margin-bottom: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.2px;
+}
+header h1{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+header span{
+    color:  hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+header p{
+    font-weight: 300;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    position: relative;
+}
+.email-input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 59%);
+    padding-left: 15px;
+    font-size: 14px;
+}
+.email-input:focus{
+    outline: none;
+    border: 1px solid hsl(354, 100%, 66%);
+}
+.email-input::placeholder{
+    padding-left: 15px;
+    color: hsl(0, 0%, 59%);
+}
+.error-message{
+    color: hsl(354, 100%, 66%);
+    font-size: 12px;
+}
+.notify{
+    background-color: hsl(223, 87%, 63%);
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    padding: 0 20px;
+}
+.notify:hover{
+    cursor: pointer;
+    background-color: hsl(223, 100%, 88%);
+    border: none;
+}
+.dashboard-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.error{
+    margin-left: 10px;
+    display: block; 
+    color: hsl(354, 100%, 66%);
+    font-size: 12px;
+    font-style: italic;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.dashboard{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.socials{
+    color: hsl(223, 87%, 63%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.socials i{
+    border: 1px solid hsl(0, 0%, 59%);
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.socials i:hover{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    cursor: pointer;
+    border: 1px solid hsl(223, 87%, 63%);
+}
+footer p{
+    color: hsl(0, 0%, 59%);
+    padding: 5px;
+    text-align: center;
+}
